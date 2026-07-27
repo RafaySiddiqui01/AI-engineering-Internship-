@@ -1,6 +1,5 @@
 from transformers import pipeline
 
-# Load a pre-trained sentiment analysis model
 classifier = pipeline("sentiment-analysis")
 
 text = input("Enter a sentence: ")

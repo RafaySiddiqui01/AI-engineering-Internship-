@@ -1,1 +1,55 @@
-# AI-engineering-Internship-
+# AI Engineering Internship
+
+This repository contains solutions for AI Engineering Internship tasks using pre-trained AI models.
+
+## Task 1: Introduction Script
+
+A simple Python script (`intro.py`) that prints a short introduction.
+
+Run:
+
+ ## bash
+python intro.py
+
+## Task 2: Sentiment Analysis
+
+A sentiment analysis script using the Hugging Face Transformers library.
+
+### Technologies
+- Python
+- Hugging Face Transformers
+- PyTorch
+
+Run:
+
+```bash
+python sentiment.py
+```
+
+---
+
+## Task 3: OCR (Optical Character Recognition)
+
+This project uses **EasyOCR**, a pre-trained deep learning model, to extract text from images.
+
+### Technologies
+- Python
+- EasyOCR
+- OpenCV
+- Pillow
+
+### Installation
+
+```bash
+pip install easyocr opencv-python pillow
+```
+
+### Usage
+
+1. Place an image containing printed text in the project folder.
+2. Rename the image to `sample.png`.
+3. Run:
+
+```bash
+python ocr.py
+```
