@@ -53,3 +53,20 @@ pip install easyocr opencv-python pillow
 ```bash
 python ocr.py
 ```
+## Task 5 – Spam Classifier
+
+This project includes a simple machine learning spam classifier built with **scikit-learn**.
+
+### Algorithm
+- CountVectorizer
+- Multinomial Naive Bayes
+
+### Installation
+
+## bash
+pip install scikit-learn
+
+### Run
+
+## bash
+python spam_classifier.py
