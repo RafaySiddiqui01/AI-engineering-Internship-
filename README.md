@@ -70,3 +70,14 @@ pip install scikit-learn
 
 ## bash
 python spam_classifier.py
+
+## Task 6 – Improved Spam Classifier
+
+The spam classifier was enhanced to improve prediction accuracy.
+
+### Improvements
+- Converted all text to lowercase.
+- Removed punctuation using regular expressions.
+- Replaced CountVectorizer with TF-IDF Vectorizer.
+- Removed common English stop words.
+- Expanded the training dataset with additional spam and non-spam examples.
