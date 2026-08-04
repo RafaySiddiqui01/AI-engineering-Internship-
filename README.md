@@ -108,3 +108,27 @@ pip install requests
 ```bash
 python summarizer_cli.py
 ```
+
+## Task 8 – Streamlit Web Interface
+
+This project includes a simple Streamlit web interface for the AI article summarizer.
+
+### Installation
+
+```bash
+pip install streamlit requests
+```
+
+### Set API Key (PowerShell)
+
+### Run
+
+```bash
+python -m streamlit run app.py
+```
+
+The application will open at:
+
+```
+http://localhost:8501
+```
