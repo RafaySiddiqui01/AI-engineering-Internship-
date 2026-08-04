@@ -81,3 +81,30 @@ The spam classifier was enhanced to improve prediction accuracy.
 - Replaced CountVectorizer with TF-IDF Vectorizer.
 - Removed common English stop words.
 - Expanded the training dataset with additional spam and non-spam examples.
+
+# CLI Article Summarizer
+
+## Description
+
+This project is a command-line application that uses the OpenRouter LLM API to summarize articles.
+
+## Prompt Design
+
+The prompt instructs the model to:
+
+- Act as a professional summarizer.
+- Produce 3–5 bullet points.
+- Focus on the most important information.
+- Keep the summary concise and easy to understand.
+
+## Installation
+
+```bash
+pip install requests
+```
+
+## Run
+
+```bash
+python summarizer_cli.py
+```
